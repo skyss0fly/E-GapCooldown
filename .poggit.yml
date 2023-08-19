@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/skyss0fly/E-GapCooldown
+build-by-default: true
+branches:
+- main
+projects:
+  E-GapCooldown:
+    path: ""
+...
