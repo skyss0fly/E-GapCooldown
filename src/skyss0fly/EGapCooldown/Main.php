@@ -1,6 +1,6 @@
 <?php
 
-namespace skyss0fly\E-GapCooldown;
+namespace skyss0fly\EGapCooldown;
 
 use pocketmine\{event\Listener, plugin\PluginBase, item\GoldenAppleEnchanted, event\player\PlayerItemUseEvent, event\player\PlayerItemConsumeEvent, inventory\PlayerInventory};
 
