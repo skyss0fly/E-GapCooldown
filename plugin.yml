@@ -1,0 +1,9 @@
+name: E-GapCooldown
+author: skyss0fly
+api: 5.0.0
+version: 0.0.1
+description: a cooldonw for your gapples
+permissions:
+ E-GapCooldown.bypass:
+ default: false
+ 
