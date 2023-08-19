@@ -33,7 +33,7 @@ $item = $player->getInventory()->getItemInHand();
 
 }
 }
-
+}
 
 
 
