@@ -17,6 +17,7 @@ public function onConsume(PlayerItemConsumeEvent $consumer, GoldenAppleEnchanted
   $player = $consumer->getPlayer();
 $item = $player->getInventory()->getItemInHand();
   if ($item === $egap){
+    if (!$player->hasPermission("E-GapCooldown.bypass")){
     $this->cooldowns[$player->getName()] = $currentTime + $cooldown;
                 if (isset($this->cooldowns[$player->getName()]) && $this->cooldowns[$player->getName()] > $currentTime) {
                     $remainingTime = $this->cooldowns[$player->getName()] - $currentTime;
